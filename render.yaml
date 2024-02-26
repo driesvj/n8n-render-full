@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: integrove-testn8nai
+    name: integrove-testn8n
     env: docker
     region: frankfurt # optional (defaults to oregon)
     plan: standard # optional (defaults to starter)
@@ -15,7 +15,7 @@ services:
           property: host
       - key: PGDATABASE
         fromDatabase:
-          name: n8naiDB
+          name: n8nDB
           property: database
       - key: PGPORT
         fromDatabase:
