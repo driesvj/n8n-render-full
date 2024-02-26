@@ -23,11 +23,11 @@ services:
           property: port
       - key: PGUSER
         fromDatabase:
-          name: n8naiDB
+          name: n8nDB
           property: user
       - key: PGPASSWORD
         fromDatabase:
-          name: n8naiDB
+          name: n8nDB
           property: password
     disk:
       name: n8nDisk
