@@ -2,7 +2,7 @@ services:
   - type: web
     name: integrove-testn8n
     env: docker
-    region: frankfurt # optional (defaults to oregon)
+    region: frankfurt # optional (defaults to or egon)
     plan: standard # optional (defaults to starter)
     branch: main # optional (defaults to master) 
     # dockerCommand: ./webdis.sh # optional (defaults to Dockerfile command)
